@@ -145,7 +145,7 @@ button#back-to-menu {
 }
 
 button#back-to-menu:hover {
-    background-color: #1976D2;
+    background-color: #ff5722;
 }
 
 /* Exibe o botão "Voltar ao Menu" apenas em telas pequenas */
