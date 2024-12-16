@@ -20,3 +20,6 @@ Um jogo da velha interativo e moderno, desenvolvido com **JavaScript**, **HTML**
 1. Faça o download ou clone este repositório.  
    ```bash
    git clone https://github.com/Gabriell-Santos/Jogo_Da-Velha.git
+
+ ---
+ ✍️ Feito com amor por [Gabriell-Santos](https://github.com/Gabriell-Santos) ❤️ 🌐 🖋️
