@@ -4,6 +4,7 @@ const winnerMessage = document.getElementById("winner-message");
 const restartButton = document.getElementById("restart-button");
 const modeSelection = document.getElementById("mode-selection");
 const gameContainer = document.getElementById("game-container");
+const backToMenuButton = document.getElementById("back-to-menu");
 
 let currentPlayer = "X"; // Jogador 1 começa
 let gameActive = true; // Para bloquear jogadas após vitória ou empate
@@ -122,16 +123,23 @@ restartButton.addEventListener("click", () => {
 // Selecionar o modo de jogo
 document.getElementById("two-player").addEventListener("click", () => {
   gameMode = "two-player";
-  startGame();
+  modeSelection.classList.add("hide");
+  gameContainer.classList.remove("hide");
 });
 
 document.getElementById("vs-ia").addEventListener("click", () => {
   gameMode = "vs-ia";
-  startGame();
-});
-
-// Inicializa o jogo
-function startGame() {
   modeSelection.classList.add("hide");
   gameContainer.classList.remove("hide");
-}
+});
+
+// Voltar ao menu
+backToMenuButton.addEventListener("click", () => {
+  modeSelection.classList.remove("hide");
+  gameContainer.classList.add("hide");
+  board = ["", "", "", "", "", "", "", "", ""];
+  currentPlayer = "X";
+  gameActive = true;
+  cells.forEach((cell) => (cell.innerHTML = ""));
+  messageContainer.classList.add("hide");
+});

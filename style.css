@@ -131,6 +131,31 @@ button#restart-button:hover {
     background-color: #e64a19;
 }
 
+/* Botão "Voltar ao Menu" (Visível no mobile) */
+button#back-to-menu {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button#back-to-menu:hover {
+    background-color: #1976D2;
+}
+
+/* Exibe o botão "Voltar ao Menu" apenas em telas pequenas */
+@media (max-width: 600px) {
+    button#back-to-menu {
+        display: block;
+       margin-bottom: 30px;
+    }
+}
+
 /* Tela de Seleção de Modo */
 .hide {
     display: none;
