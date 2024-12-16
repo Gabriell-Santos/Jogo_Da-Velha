@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+
+    <!-- Tela de seleção de modo -->
+    <div id="mode-selection">
+        <button id="two-player">Modo 2 Jogadores</button>
+        <button id="vs-ia">Jogar contra IA</button>
+    </div>
+
+    <!-- Jogo -->
+    <div id="game-container" class="hide">
+        <div id="Container">
+            <div id="block-1" class="box"></div>
+            <div id="block-2" class="box"></div>
+            <div id="block-3" class="box"></div>
+            <div id="block-4" class="box"></div>
+            <div id="block-5" class="box"></div>
+            <div id="block-6" class="box"></div>
+            <div id="block-7" class="box"></div>
+            <div id="block-8" class="box"></div>
+            <div id="block-9" class="box"></div>
+        </div>
+
+        <div id="scoreboard-container">
+            <div class="score-box">
+                <span id="x-scoreboard">Jogador 1 (X): <span id="x-score">0</span></span>
+                <span id="o-scoreboard">Jogador 2 (O): <span id="o-score">0</span></span>
+            </div>
+        </div>
+
+        <div id="message" class="hide">
+            <p id="winner-message"></p>
+        </div>
+
+        <button id="restart-button">Reiniciar Jogo</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
