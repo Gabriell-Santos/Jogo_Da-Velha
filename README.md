@@ -14,12 +14,6 @@ Um jogo da velha interativo e moderno, desenvolvido com **JavaScript**, **HTML**
 - **Reiniciar Partida**: Recomece o jogo a qualquer momento com o botão de reinício.  
 - **Interface Responsiva**: Adaptado para diferentes tamanhos de tela, proporcionando uma ótima experiência em desktop e dispositivos móveis.  
 
----
-
-## 🚀 Como jogar  
-1. Faça o download ou clone este repositório.  
-   ```bash
-   git clone https://github.com/Gabriell-Santos/Jogo_Da-Velha.git
 
  ---
  ✍️ Feito com amor por [Gabriell-Santos](https://github.com/Gabriell-Santos) ❤️ 🌐 🖋️
