@@ -32,3 +32,10 @@ Abra o terminal e execute o seguinte comando para clonar o repositório:
 
 ```bash
 git clone https://github.com/Gabriell-Santos/Jogo_Da-Velha.git
+```
+### 3️⃣ Acesse a Pasta do Projeto
+Entre no diretório do projeto com o comando:
+
+```bash
+cd Jogo_Da-Velha
+```
