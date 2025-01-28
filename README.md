@@ -39,3 +39,5 @@ Entre no diretório do projeto com o comando:
 ```bash
 cd Jogo_Da-Velha
 ```
+---
+✍️ Feito com amor por [Gabriell-Santos](https://github.com/Gabriell-Santos) ❤️ 🌐 🖋️
